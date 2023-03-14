@@ -12,6 +12,7 @@
 		948A65DD29C066FE00E9F9A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948A65DC29C066FE00E9F9A4 /* Assets.xcassets */; };
 		948A65E029C066FE00E9F9A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948A65DF29C066FE00E9F9A4 /* Preview Assets.xcassets */; };
 		948A65E729C0745D00E9F9A4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A65E629C0745D00E9F9A4 /* Location.swift */; };
+		948A65E929C0B26D00E9F9A4 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A65E829C0B26D00E9F9A4 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		948A65DC29C066FE00E9F9A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		948A65DF29C066FE00E9F9A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		948A65E629C0745D00E9F9A4 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		948A65E829C0B26D00E9F9A4 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				948A65D829C066FD00E9F9A4 /* BucketListApp.swift */,
 				948A65DA29C066FD00E9F9A4 /* ContentView.swift */,
+				948A65E829C0B26D00E9F9A4 /* EditView.swift */,
 				948A65E629C0745D00E9F9A4 /* Location.swift */,
 				948A65DC29C066FE00E9F9A4 /* Assets.xcassets */,
 				948A65DE29C066FE00E9F9A4 /* Preview Content */,
@@ -142,6 +145,7 @@
 			files = (
 				948A65DB29C066FD00E9F9A4 /* ContentView.swift in Sources */,
 				948A65E729C0745D00E9F9A4 /* Location.swift in Sources */,
+				948A65E929C0B26D00E9F9A4 /* EditView.swift in Sources */,
 				948A65D929C066FD00E9F9A4 /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
