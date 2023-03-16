@@ -38,8 +38,8 @@ struct EditView: View {
                         ForEach(pages, id:\.pageid) { page in
                             Text(page.title)
                                 .font(.headline)
-                            + Text(":")
-                            + Text("Page description here")
+                            + Text(": ")
+                            + Text(page.description)
                                 .italic()
                         }
                     case .failed:
