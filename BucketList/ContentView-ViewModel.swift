@@ -16,6 +16,8 @@ extension ContentView {
         @Published private(set) var locations: [Location]
         @Published var selectedPlace: Location?
         @Published var isUnlocked = false
+        @Published var showBiometricsAlert = false
+        @Published var biometricsAlertMessage = ""
         
         let savePath = FileManager.documentsDirectory.appendingPathComponent("SavedPlaces")
         
@@ -67,11 +69,15 @@ extension ContentView {
                         }
                         
                     } else {
-                        // error
+                        //
                     }
                 }
             } else {
-                // no biometrics
+                Task { @MainActor in
+                self.showBiometricsAlert = true
+                self.biometricsAlertMessage = "No authentication found on this device"
+                }
+                
             }
         }
         
